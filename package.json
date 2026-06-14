@@ -1,0 +1,26 @@
+{
+  "name": "discord-timezone-commands",
+  "version": "1.0.0",
+  "description": "Discord bot for easy timezone-aware timestamp generation",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "timezone",
+    "timestamps",
+    "discord.js"
+  ],
+  "author": "iTaterLove",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "chrono-node": "^2.7.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {}
+}
